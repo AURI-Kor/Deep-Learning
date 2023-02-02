@@ -1,25 +1,3 @@
-# Deep-Learning
-
-## practice
-  1. Implement Back Propagation
-  
-    BackPropagation.ipynb
-    
-    reference : https://evan-moon.github.io/2018/07/19/deep-learning-backpropagation/
-
-  2. Implement LSTM model
-    
-    LSTM class
-      - forward propagation
-      - backward propagation
-
-## Project
-  1. Lotto Predict
-  
-    LottoPred.ipynb
-
-  2. MovieReviewCrawling
-<span style="background-color=green; color=green">2022-12-26</span>
 ### `RawMovieReview` 클래스는 다음을 준수해야 합니다.
 1. 생성자
     * 생성자의 추가 인자는 `str`타입의 `file_name` 하나만을 받습니다.
@@ -46,7 +24,3 @@
 3. Indexing
     * Indexing 결과 값은 한줄평, 긍부정으로 타입은 `(str, bool)` 형태의 튜플입니다.
     * 점수가 객체의 `score_threadhold` 이상일 경우 긍정이 `True`, 미만이면 `False` 입니다.
-
-
-## Data Analysis
-  1. OTTO kaggle Competition
